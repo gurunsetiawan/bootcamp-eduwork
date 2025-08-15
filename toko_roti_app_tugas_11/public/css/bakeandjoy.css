@@ -35,6 +35,22 @@ body {
 .nav-link:hover, .nav-link.active {
     color: #c59d5f; /* Warna emas saat di-hover */
 }
+/* Tombol utama Bake and Joy */
+.btn-bake {
+    background-color: #c59d5f; /* Emas hangat */
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-bake:hover {
+    background-color: #a37e4c; /* Emas lebih gelap */
+    color: #ffffff;
+}
+
 .btn-login {
     background-color: #5a3e36;
     color: #ffffff;
@@ -105,3 +121,22 @@ body {
 .footer .social-icon a:hover {
     color: #c59d5f;
 }
+/* ========================
+   Halaman Tentang Kami
+======================== */
+.page-header { 
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                url('https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=1974&auto=format&fit=crop') center center; 
+    background-size: cover; 
+    padding: 6rem 0; 
+    color: white; 
+}
+
+.img-story { 
+    border-radius: 10px; 
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1); 
+}
+.story-text { line-height: 1.8; }
+
+.philosophy-section { background-color: #f8f1e9; }
+.philosophy-icon { font-size: 3rem; color: #c59d5f; }
